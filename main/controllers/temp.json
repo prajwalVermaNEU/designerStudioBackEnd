@@ -1,0 +1,47 @@
+
+//Table name : TRANSACTIONDEFINITION
+{
+    "PROCESSID": "H001",
+    "CURRENTSTEP": "COURSE1",
+    "TXNID": "NEUH00101"
+}
+
+
+//TBALENAME : STEPDEFINITION
+{
+    "PROCESSID": "H001",
+    "STEPID" : "EVENT123",
+    "FIELDORDER": "[1,2,3,4]",
+    "RESPONSES" : "['ACCEPT', 'REJECT']"
+}
+
+//TABLENAME: FIELDDEFINITION
+{
+    "PROCESSID" : "H001",
+    "FIELDID" : "H001_1",
+    "FIELDTYPE" : "TEXT"
+}
+
+//TABLENAME : FLOWDEFINITION
+{
+    "PROCESSID":"H001",
+    "FROM" : "EVENT_001",
+    "TO": "[
+            {
+                'condition': 'Accept',
+                'toStep':'Event2'
+            },
+            {
+                'condition': 'reject',
+                'toStep':'Event3'
+            }
+        ]"
+}
+
+//TABLENAME : PROCESSDEFINITION
+
+{
+    PROCESS: H001,
+    PROCESSDEFINTION: ""
+}
+

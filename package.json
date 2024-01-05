@@ -1,0 +1,27 @@
+{
+  "name": "expressdevelopment",
+  "version": "1.0.0",
+  "description": "BackEndDevelopment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/info-6150-fall-2023/ExpressDevelopment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/info-6150-fall-2023/ExpressDevelopment/issues"
+  },
+  "homepage": "https://github.com/info-6150-fall-2023/ExpressDevelopment#readme",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  }
+}

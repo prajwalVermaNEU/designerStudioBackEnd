@@ -1,0 +1,9 @@
+{
+    "processId": "H001",
+    "processName" : "INIT",
+    "elements" : {},
+    "fieldDefinitions" : {},
+    "sequenceFlows": {},
+    "processDescription": "INIT",
+    "bpmn" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?><bpmn:definitions xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" id=\"Definitions_0949z16\" targetNamespace=\"http://bpmn.io/schema/bpmn\" exporter=\"bpmn-js (https://demo.bpmn.io)\" exporterVersion=\"15.1.3\"><bpmn:process id=\"Process_1s6fda9\" isExecutable=\"false\"><bpmn:startEvent id=\"Event_1tm446j\" /></bpmn:process><bpmndi:BPMNDiagram id=\"BPMNDiagram_1\"><bpmndi:BPMNPlane id=\"BPMNPlane_1\" bpmnElement=\"Process_1s6fda9\" ><bpmndi:BPMNShape id=\"Event_1tm446j_di\" bpmnElement=\"Event_1tm446j\"><dc:Bounds x=\"152\" y=\"82\" width=\"36\" height=\"36\" /></bpmndi:BPMNShape></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></bpmn:definitions>"
+}

@@ -1,0 +1,59 @@
+
+[
+    {
+        "TABLENAME": "ProcessDefinition",
+        "ProcessId":"H001",
+        "currentStep":"Event112"
+    }
+]
+
+
+[
+
+    {
+        "TABLENAME": "StepDefinition",
+        "ProcessId" : "H001",
+        "StepId": "Event112",
+        "FieldOrder":[1,2,3,4],
+        "Responses":["Acept","reject"]
+    }
+]
+
+
+[
+    {
+        "TABLENAME": "FieldDefinition",
+        "FieldId":1,
+        "FieldType":"textField/Password/Date/number/checkbox/email",
+    },    
+]
+
+[
+    {
+        "processId":"H001",
+        "from":"Event1",
+        "to":[
+            {
+                "condition": "Acept",
+                "toStep":"Event2"
+            },
+            {
+                "condition": "reject",
+                "toStep":"Event3"
+            }
+        ],
+    }
+    {
+        "processId":"H001",
+        "from":"Event1",
+        "to":"[
+            {
+                'condition': '',
+                'toStep':'Event2'
+            },
+        ]",
+    }
+]
+
+
+
